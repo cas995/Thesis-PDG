@@ -354,7 +354,7 @@ if __name__ == "__main__":
         "log_path": os.path.join(config.logdir, config.expname) + "/",
     }
     for metric in config.metrics:
-        params[metric] = [0.001, 0.002]
+        params[metric] = []
     if config.restore:
         params["updates"] = checkpoints["updates"]
 
