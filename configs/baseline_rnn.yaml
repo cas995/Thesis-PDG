@@ -33,7 +33,7 @@ schesamp: False # Scheduled sampling
 
 
 # Model
-model: 'rnn'
+model: 'seq2seq'
 ## Transformer
 positional: True
 heads: 8
