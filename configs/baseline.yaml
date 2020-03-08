@@ -9,7 +9,7 @@ refF: ''
 
 
 # Logging
-logdir: 'experiments/'
+logdir: '/content/gdrive/My\ Drive/Thesis/results/'
 report_interval: 100
 eval_interval: 5000
 save_interval: 5000
