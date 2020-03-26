@@ -185,6 +185,7 @@ def train_model(model, data, optim, epoch, params, config, device, writer):
 
         if params["updates"] % config.eval_interval == 0:
             print("evaluating after %d updates...\r" % params["updates"])
+            print(epoch)
             score = eval_model(model, data, params, config, device, writer)
             print('score is ', score)
             for metric in config.metrics:
